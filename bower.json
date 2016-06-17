@@ -1,0 +1,22 @@
+{
+  "name": "genjinovi_code",
+  "description": "",
+  "main": "angular-scrollify.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "hammerjs": "~2.0.6",
+    "hamsterjs": "homerjam/hamster.js#umd",
+    "lethargy": "homerjam/lethargy#umd"
+  }
+}

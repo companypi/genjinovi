@@ -1,6 +1,4 @@
-myapp.controller('MainCtrl', ["$scope", "$location", "$routeParams", 
-function ($scope, $location, $routeParams) {
+myapp.controller('MainCtrl', ["$scope", 
+function ($scope) {
 
-        $scope.currentPath = $location.path();
-        
 }]);
