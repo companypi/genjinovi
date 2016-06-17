@@ -1,1 +1,19 @@
-home.html
+<div class="scrollify"
+    hj-scrollify="pane in data.panes"
+    hj-scrollify-options="{
+        id: 'myScrollify'
+    }">
+
+    <div
+        class="content"
+        style="background-color: {[{pane.color}]}"
+        ng-attr-data-text="{[{pane.text}]}"
+        ng-click="$scrollify.goTo($index)">
+    </div>
+
+    {[{pane.text}]}
+    {[{pane.color}]}
+
+</div>
+
+<div class="top" ng-click="top()">☝︎</div>

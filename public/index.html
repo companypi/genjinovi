@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="myapp" ng-controller="MainCtrl">
+<html>
 <head>
 	<base href='/'></base>
 
@@ -10,16 +10,19 @@
     <link rel="stylesheet" href="stylesheets/styles.css" type="text/css">
 
 	<script src="bower/angular/angular.js"></script>
-
 	<script src="bower/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="bower/hamsterjs/hamster.js"></script>
+    <script type="text/javascript" src="bower/lethargy/lethargy.js"></script>
+    <script type="text/javascript" src="bower/hammerjs/hammer.js"></script>
+    <script type="text/javascript" src="angular-scrollify.js"></script>
 
 	<script src="js/routes.js"></script>
 	<script src="js/controllers/MainCtrl.js"></script>
 
 	
 </head>
-<body>
-        <div ng-view class="height100">
+<body ng-app="ExampleApp" ng-controller="MainCtrl">
+        <div ng-view>
         </div>
 </body>
 </html>
