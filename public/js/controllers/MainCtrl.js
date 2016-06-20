@@ -5,10 +5,24 @@ myapp.controller('MainCtrl', ["$scope", function ($scope) {
 
         for (var i = 0; i < 4; i++) {
 
-            $scope.data.panes[i] = {
-                text: i + 1,
-                color: '#' + ('000000' + Math.floor(Math.random() * 16777215).toString(16)).slice(-6)
+            $scope.data.panes[0] = {
+                color: 'pink',
+                text:1,
+                heading:"First Heading"
             };
+
+            $scope.data.panes[1] = {
+                color: 'blue',
+                text: 'two',
+                heading:"Second Heading"
+            };
+
+            $scope.data.panes[2] = {
+                color: 'yellow',
+                text: '3',
+                heading:"Third Heading"
+            };
+
         }
 
         $scope.top = function() {
