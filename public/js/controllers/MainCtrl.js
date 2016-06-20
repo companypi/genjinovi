@@ -3,15 +3,12 @@ myapp.controller('MainCtrl', ["$scope", function ($scope) {
 
         $scope.data.panes = [];
 
-        for (var i = 0; i < 5; i++) {
+        for (var i = 0; i < 4; i++) {
 
             $scope.data.panes[i] = {
                 text: i + 1,
                 color: '#' + ('000000' + Math.floor(Math.random() * 16777215).toString(16)).slice(-6)
             };
-
-            console.log($scope.data.panes[i].color);
-
         }
 
         $scope.top = function() {
@@ -28,4 +25,4 @@ myapp.controller('MainCtrl', ["$scope", function ($scope) {
 }]);
 
 
-angular.module('ExampleApp', ['hj.scrollify', 'myapp']).config(function() {});
+angular.module('PdiApp', ['hj.scrollify', 'myapp']).config(function() {});

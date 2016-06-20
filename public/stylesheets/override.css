@@ -1,6 +1,3 @@
-.content {
-    position: relative;
-    width: 100%;
-    height: 850px;
-    overflow: hidden;
+.scrollify__slider {
+    height: 100%;
 }
