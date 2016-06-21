@@ -8,6 +8,29 @@ body {
 	font-family: Helvetica;
 }
 
+nav {
+    height: 10000px;
+}
+
+header {
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 100px;
+    background-color: grey;
+}
+
+.min{
+	height: 50px;
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 1000ms ease;
+	-o-transition:  all 1000ms ease;
+	transition: all 1000ms ease;
+}
+
+
 .scrollify__container {
 	position: absolute;
 	top: 0;
